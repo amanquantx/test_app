@@ -17,6 +17,11 @@ const playfair = Playfair_Display({
   variable: '--font-playfair',
 })
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
+
 export const metadata: Metadata = {
   title: 'Gems Pride - Professional Electron Beam Services | E-Beam Technology',
   description: 'Expert e-beam services for gemstone enhancement, polymer crosslinking, and medical sterilization. Precision treatment with professional documentation.',
@@ -25,7 +30,7 @@ export const metadata: Metadata = {
   creator: 'Gems Pride',
   publisher: 'Gems Pride',
   robots: 'index, follow',
-  viewport: 'width=device-width, initial-scale=1',
+  metadataBase: new URL('https://gemspride.com'),
   openGraph: {
     title: 'Gems Pride - Professional Electron Beam Services | E-Beam Technology',
     description: 'Expert e-beam services for gemstone enhancement, polymer crosslinking, and medical sterilization. Precision treatment with professional documentation.',
