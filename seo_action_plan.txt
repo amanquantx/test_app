@@ -1,0 +1,5 @@
+1. Deploy updated site to production
+2. Submit sitemap to Google Search Console
+3. Request re-indexing of all pages
+4. Set up Google Analytics 4
+5. Configure email in .env.local for contact form
