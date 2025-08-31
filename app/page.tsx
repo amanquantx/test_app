@@ -4,7 +4,7 @@ import ContactCTA from '@/components/ContactCTA'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Professional Electron Beam Services | Gems Pride E-Beam Technology',
+  title: 'Professional Electron Beam Services ',
   description: 'Expert e-beam services for gemstone enhancement, polymer crosslinking, and medical sterilization. Precision treatment with professional documentation for industrial applications.',
   keywords: 'electron beam services, e-beam technology, gemstone enhancement, polymer crosslinking, medical sterilization, material treatment, precision technology, gems pride',
   openGraph: {

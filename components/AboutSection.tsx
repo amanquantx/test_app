@@ -24,11 +24,11 @@ const AboutSection = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full text-blue-700 text-sm font-medium mb-6 border border-blue-100">
             <Star className="w-4 h-4 mr-2" />
-            About Our Technology
+            About Our Services
           </div>
           
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Leading E-Beam Technology
+            Leading E-Beam Services
             <br />
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Since 2010
@@ -36,7 +36,7 @@ const AboutSection = () => {
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            For over a decade, Gems Pride has pioneered electron beam technology, 
+            For over a decade, Gems Pride has pioneered electron beam services, 
             specializing in gemstone enhancement and advanced material treatment services.
           </p>
         </motion.div>
@@ -108,7 +108,7 @@ const AboutSection = () => {
               className="pt-4"
             >
               <Link href="/about" className="group inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors">
-                Learn More About Our Technology
+                Learn More About Our Services
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
             </motion.div>

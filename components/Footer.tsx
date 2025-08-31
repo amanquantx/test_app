@@ -214,7 +214,7 @@ const Footer = () => {
               className="flex items-center space-x-2 text-sm text-gray-500"
             >
               <div className="w-2 h-2 bg-accent-500 rounded-full"></div>
-              <span> Electron Beam Technology</span>
+              <span> Electron Beam Services</span>
             </motion.div>
           </div>
         </div>

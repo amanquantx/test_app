@@ -11,7 +11,7 @@ const Testimonials = () => {
       name: 'Dr. Sarah Chen',
       role: 'Chief Materials Scientist',
       company: 'Advanced Gemstone Labs',
-      content: 'Gems Pride\'s e-beam technology has revolutionized our gemstone enhancement process. The precision and consistency are unmatched in the industry.',
+      content: 'Gems Pride\'s e-beam services has revolutionized our gemstone enhancement process. The precision and consistency are unmatched in the industry.',
       rating: 5,
     },
     {
@@ -162,7 +162,7 @@ const Testimonials = () => {
               Trusted by Leading Companies Worldwide
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-70">
-              {['Quality Systems', 'Advanced Technology', 'Global Standards', 'Industry Experience'].map((cert, index) => (
+              {['Quality Systems', 'Advanced Services', 'Global Standards', 'Industry Experience'].map((cert, index) => (
                 <div key={cert} className="flex items-center space-x-2">
                   <Shield className="w-5 h-5 text-primary-600" />
                   <span className="text-sm font-medium text-gray-600">{cert}</span>

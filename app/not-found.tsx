@@ -74,7 +74,7 @@ export default function NotFound() {
                 About Gems Pride
               </h4>
               <p className="text-sm text-gray-600 mt-1">
-                Learn about our expertise in electron beam technology
+                Learn about our expertise in electron beam services
               </p>
             </Link>
           </div>

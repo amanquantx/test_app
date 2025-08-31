@@ -23,7 +23,7 @@ export const viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Gems Pride - Professional Electron Beam Services | E-Beam Technology',
+  title: 'Gems Pride - Professional Electron Beam Services',
   description: 'Leading provider of electron beam services for gemstone enhancement, polymer crosslinking, and medical sterilization. Professional e-beam technology solutions with expert consultation. Contact +91 7977753638.',
   keywords: 'electron beam services, e-beam technology, gemstone enhancement, gemstone color treatment, polymer crosslinking, medical sterilization, electron beam equipment, gems pride, professional e-beam services, material modification, radiation processing',
   authors: [{ name: 'Gems Pride' }],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     canonical: 'https://gemspride.com',
   },
   openGraph: {
-    title: 'Gems Pride - Professional Electron Beam Services | E-Beam Technology',
+    title: 'Gems Pride - Professional Electron Beam Services',
     description: 'Leading provider of electron beam services for gemstone enhancement, polymer crosslinking, and medical sterilization. Expert e-beam technology solutions.',
     url: 'https://gemspride.com',
     siteName: 'Gems Pride',

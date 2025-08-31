@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://gemspride.com/services',
   },
   openGraph: {
-    title: 'E-Beam Services | Professional Electron Beam Technology | Gems Pride',
+    title: 'E-Beam Services | Professional Electron Beam Services | Gems Pride',
     description: 'Professional electron beam services for gemstone enhancement, polymer crosslinking, and medical sterilization.',
     url: 'https://gemspride.com/services',
     siteName: 'Gems Pride',

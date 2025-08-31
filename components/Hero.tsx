@@ -96,7 +96,7 @@ const Hero = () => {
             >
               <Badge variant="secondary" className="px-4 py-2 text-sm font-medium bg-primary-50 text-primary-800 border-primary-200 hover:bg-primary-100 transition-colors">
                 <Zap className="w-4 h-4 mr-2" />
-                Advanced E-Beam Technology
+                Advanced E-Beam Services
               </Badge>
             </motion.div>
 
@@ -125,7 +125,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-600 max-w-xl leading-relaxed"
             >
-              Transform materials with precision electron beam technology. From gemstone enhancement to medical sterilization, 
+              Transform materials with precision electron beam services. From gemstone enhancement to medical sterilization, 
               we deliver consistent, documented results with industry-leading accuracy.
             </motion.p>
 
