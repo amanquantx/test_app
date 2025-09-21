@@ -20,8 +20,8 @@ const ContactCTA = () => {
       icon: Mail,
       title: 'Email Us',
       description: 'Get detailed information',
-      action: 'mailto:yagnikdurgesh@gmail.comde.com',
-      label: 'yagnikdurgesh@gmail.comde.com',
+      action: 'mailto:yagnikdurgesh@gmail.com',
+      label: 'yagnikdurgesh@gmail.com',
       color: 'from-secondary-500 to-secondary-600'
     },
     {

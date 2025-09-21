@@ -133,7 +133,7 @@ Create a `.env.local` file for sensitive data:
 NEXT_PUBLIC_GA_ID=your-google-analytics-id
 
 # Contact Form (optional)
-CONTACT_EMAIL=yagnikdurgesh@gmail.comde.com
+CONTACT_EMAIL=yagnikdurgesh@gmail.com
 ```
 
 ## 📈 Performance
