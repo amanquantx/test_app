@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
+  <url>
+    <loc>https://gemspride.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/how-it-works</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services hub + individual service pages -->
+  <url>
+    <loc>https://gemspride.com/e-beam-services-india</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/services/e-beam-sterilization</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/services/polymer-crosslinking</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/services/electron-beam-processing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/services/gemstone-enhancement</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Industry pages -->
+  <url>
+    <loc>https://gemspride.com/industries/medical-devices</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/industries/polymers-plastics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gemspride.com/industries/gemstones</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

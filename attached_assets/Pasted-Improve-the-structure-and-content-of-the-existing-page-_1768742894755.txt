@@ -1,0 +1,128 @@
+Improve the structure and content of the existing page at
+/e-beam-services-india
+
+Do NOT redesign the page.
+Do NOT add rounded corners, animations, or decorative UI.
+Keep a professional, industrial, engineering-focused look.
+
+The goal is to improve page STRUCTURE, clarity, and SEO alignment for the keyword:
+“E Beam services in India”.
+
+Company context:
+GemspRIDE provides E Beam services in India through certified partner facilities.
+The company does NOT own an electron beam plant.
+GemspRIDE acts as a technical consultant, service integrator, and single point of contact for clients across India.
+
+Target audience:
+Industrial manufacturers, medical device companies, polymer/materials companies, engineering and R&D teams.
+
+Primary SEO intent:
+Users searching for “e beam services in India”, “electron beam providers in India”, and “electron beam irradiation service”.
+
+STRUCTURE REQUIREMENTS (VERY IMPORTANT)
+
+Reorder and refine the page sections in the following order:
+
+Above the fold section
+
+H1: E Beam Services in India
+
+1–2 sentence positioning clearly stating pan-India E Beam services delivered via certified partner facilities
+
+Primary CTA such as “Request E Beam Service” or “Consult a Technical Expert”
+
+Why Choose GemspRIDE for E Beam Services in India
+
+This section must appear EARLY on the page
+
+Emphasize technical expertise, partner-facility network, single point of coordination, and India-wide reach
+
+Avoid marketing hype, keep it factual and professional
+
+Our E Beam Service Capabilities
+
+Brief overview of what services are offered
+
+High-level summary only (details come later)
+
+How We Deliver E Beam Services Across India
+
+Dedicated section explaining the delivery model
+
+Clearly state that GemspRIDE works with certified partner facilities
+
+Explain facility selection, technical validation, project coordination, and execution
+
+Emphasize transparency and compliance
+
+What Is Electron Beam (E Beam) Technology
+
+Clear technical explanation in simple professional language
+
+No sales language
+
+Applications of Electron Beam Services
+
+Focus on what e-beam is used for
+
+Examples: sterilization, polymer cross-linking, material modification
+
+Industries We Serve
+
+Medical devices
+
+Polymers and plastics
+
+Packaging
+
+Other relevant industrial sectors
+
+Keep industries separate from applications
+
+Quality, Compliance, and Safety
+
+Regulatory compliance
+
+Process control
+
+Quality assurance
+
+Risk mitigation
+
+Frequently Asked Questions
+Include realistic, trust-building FAQs such as:
+
+Do you need to own an e-beam facility to provide services?
+
+How are partner facilities selected?
+
+Is electron beam sterilization approved for medical devices in India?
+
+How does e-beam compare with gamma irradiation or EtO?
+
+Can services be delivered across India?
+
+Final CTA section
+
+Clear next step for clients
+
+Professional tone, no urgency pressure
+
+CONTENT RULES
+
+One H1 only
+
+Clear H2 and H3 hierarchy
+
+No exaggerated claims
+
+No SaaS or startup language
+
+No mention of owning plants or facilities
+
+Keep tone technical, conservative, and client-ready
+
+Content must be suitable to share with regulatory, engineering, and procurement teams
+
+Do not focus on fonts, branding, logo, or colors.
+Focus only on improving structure, clarity, and credibility.

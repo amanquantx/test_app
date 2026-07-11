@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ════════════════════════════════════════════════════════════════
+   GemsPride design system — "The beam and the paperwork"
+
+   Two material worlds, each meaning something:
+   · CHROME  — graphite control-room surfaces where the beam lives
+               (nav, page heroes, technology, footer)
+   · PAPER   — engineering-document sections that carry the proof
+               (spec cards, comparison table, process, forms)
+
+   Type: IBM Plex superfamily — the typography of engineering
+   documentation. Plex Sans for display/body, Plex Mono for data.
+   Accent: beam blue #1F6BFF. Signal amber in micro-doses only.
+   Radius: 0 everywhere. The beam-line pulse is the one moving motif.
+   ════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Paper world (default ground) ── */
+  --background: 216 20% 96%;            /* #F2F4F7 engineering paper */
+  --foreground: 216 26% 10%;            /* #131820 ink */
+  --card: 0 0% 100%;
+  --card-foreground: 216 26% 10%;
+  --card-border: 216 16% 90%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 216 26% 10%;
+  --popover-border: 216 16% 88%;
+
+  /* primary = ink/chrome: dark headings on paper, dark fills */
+  --primary: 217 22% 9%;                /* #12161E */
+  --primary-foreground: 210 20% 96%;
+  --secondary: 216 18% 92%;             /* light steel surface */
+  --secondary-foreground: 216 26% 10%;
+  --muted: 216 18% 93%;
+  --muted-foreground: 216 12% 40%;      /* #5A6472 */
+
+  /* ── Beam blue ── */
+  --accent: 219 100% 56%;               /* #1F6BFF */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 74% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 216 16% 88%;                /* #DDE2EA hairlines on paper */
+  --input: 216 16% 84%;
+  --ring: 219 100% 56%;
+  --radius: 0px;
+
+  /* border companions consumed as raw values by tailwind config */
+  --primary-border: hsl(217 22% 16%);
+  --secondary-border: hsl(216 16% 84%);
+  --muted-border: hsl(216 16% 86%);
+  --accent-border: hsl(219 100% 46%);
+  --destructive-border: hsl(0 74% 42%);
+  --button-outline: hsl(216 16% 80%);
+
+  /* charts / sidebar — kept valid for shadcn primitives */
+  --chart-1: 219 100% 56%;
+  --chart-2: 199 90% 48%;
+  --chart-3: 216 12% 40%;
+  --chart-4: 39 100% 56%;
+  --chart-5: 262 60% 56%;
+  --sidebar: 0 0% 100%;
+  --sidebar-foreground: 216 26% 10%;
+  --sidebar-border: 216 16% 88%;
+  --sidebar-ring: 219 100% 56%;
+  --sidebar-primary: 217 22% 9%;
+  --sidebar-primary-foreground: 210 20% 96%;
+  --sidebar-primary-border: hsl(217 22% 16%);
+  --sidebar-accent: 219 100% 56%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-accent-border: hsl(219 100% 46%);
+
+  /* ── Chrome world (dark control-room surfaces) ── */
+  --chrome: 220 23% 6%;                 /* #0B0E13 */
+  --chrome-2: 217 22% 9%;               /* #12161E elevated panel */
+  --chrome-3: 217 18% 13%;              /* #1A2029 raised plate */
+  --chrome-border: 218 14% 20%;         /* hairlines on chrome */
+  --chrome-text: 214 22% 93%;           /* #E9EDF3 */
+  --chrome-muted: 216 11% 62%;          /* #939CAB */
+
+  /* ── Signal amber — live-status micro-accent only ── */
+  --signal: 39 100% 56%;                /* #FFB020 */
+
+  /* Typography */
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+  --font-serif: Georgia, 'Times New Roman', serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Never allow horizontal page scroll — decorative elements are clipped
+     instead ("clip" keeps position:sticky working, unlike "hidden"). */
+  html, body {
+    overflow-x: clip;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "cv05";
+    text-rendering: optimizeLegibility;
+  }
+  /* Headings: engineered, tight. Color set per-context (paper vs chrome). */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+  ::selection {
+    background: hsl(var(--accent));
+    color: #ffffff;
+  }
+  :focus-visible {
+    outline: 2px solid hsl(var(--accent));
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Consistent page gutter */
+  .container-grid {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Mono spec annotation — the voice of the dosimetry report */
+  .spec-label {
+    @apply font-mono text-[11px] font-medium uppercase tracking-[0.18em];
+  }
+
+  /* Engineering-paper grid for light sections */
+  .graph-paper {
+    background-image:
+      linear-gradient(to right, hsl(216 26% 10% / 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(216 26% 10% / 0.045) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  /* Faint blueprint grid for chrome sections */
+  .chrome-grid {
+    background-image:
+      linear-gradient(to right, hsl(0 0% 100% / 0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(0 0% 100% / 0.035) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+
+  /* ── The beam line ──
+     A hairline rule carrying a traveling pulse of light: the electron
+     beam as the connective thread of the page. Use the animated form
+     sparingly — once per page. */
+  .beam-line {
+    position: relative;
+    height: 2px;
+    overflow: hidden;
+    background: hsl(var(--chrome-border));
+  }
+  .beam-line--paper {
+    background: hsl(var(--border));
+  }
+  .beam-line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 96px;
+    left: -96px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--accent)) 40%,
+      hsl(214 100% 82%) 50%,
+      hsl(var(--accent)) 60%,
+      transparent
+    );
+    animation: beam-travel 3.4s cubic-bezier(0.45, 0, 0.25, 1) infinite;
+  }
+  .beam-line--static::after {
+    display: none;
+  }
+
+  /* Topaz gradient — permitted only in gemstone contexts + logo */
+  .gem-gradient {
+    background: linear-gradient(90deg, #7cc4ff 0%, #2e8bff 50%, #0a4fc4 100%);
+  }
+
+  /* Elevation hooks referenced by ui/button.tsx */
+  .hover-elevate:hover {
+    filter: brightness(0.97);
+  }
+  .active-elevate-2:active {
+    filter: brightness(0.93);
+  }
+}
+
+@keyframes beam-travel {
+  from { left: -96px; }
+  to   { left: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .beam-line::after {
+    animation: none;
+    opacity: 0;
+  }
+}
