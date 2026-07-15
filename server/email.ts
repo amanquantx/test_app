@@ -1,5 +1,8 @@
-import nodemailer from "nodemailer";
-import type { InsertContactInquiry } from "@shared/schema";
+import { createRequire } from "module";
+
+const require = createRequire(import.meta.url);
+const nodemailer = require("nodemailer");
+import type { InsertContactInquiry } from "../shared/schema.ts";
 
 /**
  * Sends an email notification for every contact-form inquiry.
