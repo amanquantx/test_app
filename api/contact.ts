@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { z } from "zod";
-import { insertContactInquirySchema, contactInquiries } from "../shared/schema";
-import { sendInquiryNotification } from "../server/email";
+import { insertContactInquirySchema, contactInquiries } from "../shared/schema.ts";
+import { sendInquiryNotification } from "../server/email.ts";
 
 /**
  * Vercel serverless function for the contact form (POST /api/contact).
